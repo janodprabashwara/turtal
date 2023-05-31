@@ -1,0 +1,258 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:'candara', Brush Script;
+  box-sizing: border-box;
+  }
+  .body{
+      height: 100hv;
+      width: 100%;
+      background-image: url('img/wallpaper.jpg');
+      background-size: cover;
+  }
+  nav{
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 20px 8%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    nav .logo{
+    width: 80px;
+    align-items:left;
+    
+    }
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      margin-left: 40px;
+    }
+    
+    nav ul li a{
+      text-decoration:none;
+       color: white;
+      font-size: 17px;
+      font-weight: bold;
+       text-transform: capitalize;
+    }
+    nav ul li a:hover{
+      color:blue;
+      transition: 0.4em;
+    }
+
+      
+  .Para {
+    align-items: center;
+
+    top: 12%;
+    left: 19%;
+
+  width: 860px;
+  height: 59%;
+  margin: 10 8px;  
+position: relative;
+  }
+  .Para h1{
+    text-align: center;
+    margin-top: 150px; /* Adjust the value as needed */
+    font-family: 'Courier New', Courier, monospace;
+    font-size:39px ;
+    color: rgb(24, 14, 90);
+  }
+  .Para p{
+    color: #111010;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .Sub{
+    width: 100%;
+  padding: 100px 0px;
+    background-color: rgb(228, 193, 148);
+  }
+  .Subx {
+    position: absolute;
+    top: 270px;
+    left: 1%;
+    transform: translateY(-50%);
+    border:3px solid rgb(225, 44, 44);
+  padding: 19px;
+  width: 990px;
+  height: 69%;
+  margin: 0 8px;  
+position: relative;
+color: #161414;
+  }
+  .image1 {
+    width: 250px;
+  height: 218px;
+  float: right;
+  position: absolute;
+  top: 48px; /* Adjust the value to position the image vertically */
+  left: 630px; /* Adjust the value to position the image horizontally */
+margin-top: 180px;
+border: 2px solid rgb(237, 237, 237)  ;
+  }
+  .image2{
+    width: 250px;
+  height: 218px;
+  float: right;
+  position: absolute;
+  top: 48px; /* Adjust the value to position the image vertically */
+  left: 340px; /* Adjust the value to position the image horizontally */
+margin-top: 180px;
+border: 2px solid rgb(222, 218, 218)  ;
+  }
+  .image3{
+  width: 250px;
+  height: 218px;
+  float: right;
+  position: absolute;
+  top: 48px; /* Adjust the value to position the image vertically */
+  left: 30px; /* Adjust the value to position the image horizontally */
+margin-top: 180px;
+border: 2px solid rgb(239, 231, 231)  ;
+  }
+  .Sub2{
+    width: 100%;
+  padding: 100px 0px;
+    background-color: rgb(238, 181, 107);
+  }
+
+  .Subx2 {
+    position: absolute;
+    top: 270px;
+    left: 1%;
+    transform: translateY(-50%);
+    border:3px solid rgb(225, 44, 44);
+  padding: 19px;
+  width: 990px;
+  height: 69%;
+  margin: 0 8px;  
+position: relative;
+color: #161414;
+  }
+  .Sub3{
+    width: 100%;
+  padding: 100px 0px;
+    background-color: rgb(239, 174, 88);
+  }
+
+  .Subx3 {
+    position: absolute;
+    top: 270px;
+    left: 1%;
+    transform: translateY(-50%);
+    border:3px solid rgb(225, 44, 44);
+  padding: 19px;
+  width: 990px;
+  height: 69%;
+  margin: 0 8px;  
+position: relative;
+color: #161414;
+  }
+  .Sub4{
+    width: 100%;
+  padding: 100px 0px;
+    background-color: rgb(251, 160, 41);
+  }
+
+  .Subx4 {
+    position: absolute;
+    top: 270px;
+    left: 1%;
+    transform: translateY(-50%);
+    border:3px solid rgb(225, 44, 44);
+  padding: 19px;
+  width: 990px;
+  height: 69%;
+  margin: 0 8px;  
+position: relative;
+color: #161414;
+  }
+  footer {
+    background-color: #103858;
+    color: #fff;
+    padding: 25px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footerContainer {
+  text-align:center ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: infinite;
+  color: white;
+  font-weight: bolder;
+
+
+  }
+   /* Style for table headers */
+   th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    }
+    table td img {
+      width: 190px;
+      height: 90px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+    /* Style for table cells */
+    td {
+    border: 1px solid #161515;
+    padding: 10px;
+    color: #333;
+    background-color:rgb(59, 144, 58);
+  }
+  .Sub5{
+  
+    background-color: rgb(251, 160, 41);
+  }
+.sub .Subx .image-container  iframe {
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  left: 1050px;
+}
+  
+.sub2 .Subx2 .image-container  iframe {
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  left: 1050px;
+}
+.sub3 .Subx3 .image-container  iframe {
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  left: 1050px;
+}
+.sub4 .Subx4 .image-container  iframe {
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  left: 1050px;
+}
+.
+/* Style for table */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+ 

@@ -1,0 +1,292 @@
+*{
+padding: 0;
+margin: 0;
+font-family:'candara', Brush Script;
+box-sizing: border-box;
+}
+.body{
+    height: 100hv;
+    width: 100%; 
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav .logo{
+  width: 80px;
+  align-items:left;
+  
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+  }
+  
+  nav ul li a{
+    text-decoration:none;
+     color: white;
+    font-size: 17px;
+    font-weight: bold;
+     text-transform: capitalize;
+  }
+  nav ul li a:hover{
+    color:blue;
+    transition: .4s;
+  }
+  .text-box {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translateY(-50%);
+    border:2px solid white;
+  padding: 14px;
+  width: 1000px;
+  height: 55%;
+  margin: 0 8px;  
+position:relative;
+  }
+.text-box h1{
+  color:rgb(14, 68, 41);
+}
+.text-box p{
+  color:black;
+ font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.imgM{
+  width: 400px;
+  height: 378px;
+  float: right;
+  position: absolute;
+  top: 100px; /* Adjust the value to position the image vertically */
+  left: 1030px; /* Adjust the value to position the image horizontally */
+margin-top: 80px;
+border: 2px solid white  ;
+
+}
+.S1{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: rgb(228, 193, 148);
+}
+.S1 img{
+  height: 600px;
+  width: 430px;
+  margin: 0 8px;  
+ position: relative;
+ border: 4px solid black;
+ margin-top: 80px;
+
+}
+.S11{
+  width: 550px;
+}
+.about{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 80px;
+  position: relative;
+ 
+}
+.about h2{
+  color:maroon;
+  letter-spacing: 2px;
+  font-size: 55px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.Para h{
+  justify-content: space-around;
+  position: absolute;
+  top: 50px; /* Adjust the top value to move the headline vertically */
+  left: 480px; ;
+  margin-top: -499px;
+}
+.about p{
+  
+    justify-content: space-around;
+    position:relative;
+    top: 3px; /* Adjust the top value to move the headline vertically */
+    left: 770px; /* Adjust the left value to move the headline horizontally */
+    margin-top: -799px;
+    font-size: 25px;
+  }
+  .about h2{
+    color:maroon;
+    letter-spacing: 2px;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    text-align: center;
+    position: absolute;
+  top: -460px;
+  left: 90%;
+
+
+  }
+  .service{
+    background-color:rgb(238, 181, 107);
+    width: 100%;
+    padding: 100px 0px;
+  }
+.title h3{
+  color: white;
+  font-size: 50px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+  color:maroon;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+
+}
+.card{
+  height: 360px;
+  width:315px;
+  padding: 20px 35px;
+  background: white;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  top: 2000px;
+ left: 989px ;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+
+}
+.card1{
+  height: 360px;
+  width:315px;
+  padding: 20px 35px;
+  background: white;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  top: 2000px;
+  left:200px ;
+}
+.pra p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:blue;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.service img{
+  width: 280px;
+  position: absolute;
+  top: 2075px;
+  left: 579px;
+  border: 6px solid yellow;
+
+}
+.bullet-header::before {
+  content: "•"; /* The bullet point character */
+  margin-right: 10px; /* Adjust the spacing as desired */
+}
+
+.numbered-list {
+  list-style-type: none;
+  counter-reset: my-counter;
+  padding-left: 20px;
+}
+
+.numbered-list li::before {
+  counter-increment: my-counter;
+  content: counter(my-counter);
+  display: inline-block;
+  width: 20px;
+  text-align:center ;
+  margin-right: 5px;
+  margin: 0 8px;  
+position: relative;
+}
+.Para1{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: rgb(228, 193, 148);
+}
+.Para1 h5{
+  font-size: 40px;
+  text-align: center;
+  color: maroon;
+}
+.Para1 ul li{
+  font-size: 18px;
+}
+
+
+.image1 {
+  width: 300px;
+  display:inline;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+
+ 
+}
+.image3{
+  width: 300px;
+  height: auto;
+margin-top: -10px;
+margin-left: 240px;
+}
+.image2 {
+  width: 300px;
+  display:inline;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: 200px;
+
+}
+footer {
+  background-color: #103858;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footerContainer {
+text-align:center ;
+display: flex;
+justify-content: center;
+align-items: center;
+animation: infinite;
+color: white;
+font-weight: bolder;
+}
